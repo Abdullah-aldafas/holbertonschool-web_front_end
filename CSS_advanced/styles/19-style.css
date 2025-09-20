@@ -443,6 +443,7 @@ a:active {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
     text-transform: var(--section-tagline-transform);
+    margin: var(--section-tagline-margin);
 }
 
 
@@ -513,9 +514,6 @@ h6 {
     padding: var(--footer-padding);
 }
 
-.section-tagline {
-    margin: var(--section-tagline-margin);
-}
 
 ul.row {
     margin: 0;
