@@ -390,6 +390,15 @@
 
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
@@ -397,6 +406,18 @@ body {
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+}
+
 
 a:link {
     color: var(--text-color);
@@ -491,24 +512,6 @@ a:active {
     color: var(--nav-item-link-hover);
 }
 
-*, *::before, *::after {
-    box-sizing: border-box;
-  }
-
-html {
-    scroll-behavior: smooth;
-    font-size: 62.5%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
-}
 
 .footer {
     padding: var(--footer-padding);
@@ -539,7 +542,7 @@ ul.row {
     color: var(--text-color);
 }
 
-footer ul {
+.footer ul {
     text-align: right;
 }
 
